@@ -38,9 +38,9 @@ export default function Home() {
               <div className="badge ">
                 Try It
               </div>
-              <h2 className="text-white">Transform Interviews with Conversational AI<br />
+              <h2 className="text-white">The Conversational AI Interface for Every Need<br />
                 <Typewriter
-                  words={['Streamline Interviews', 'Shortlist Faster', 'Reduce bias']}
+                  words={['Hiring', 'Survey', 'Engagement','Social']}
                   loop={true}
                   cursor
                   cursorStyle='_'
@@ -49,38 +49,38 @@ export default function Home() {
                   delaySpeed={1000}
                 /> With INTVIEW
               </h2>
-              <p className='desc'>Let AI ask the questions!</p>
+              <p className='desc'>Streamlining Communication, Empowers Connections, and Driving Smarter Decisions</p>
 
               <div className="scene relative">
                 <div className="img-wrap">
-                  <img src="/img/centered.webp" alt="centered img" />
+                  <img src="/hero_section/main.png" alt="centered img" />
                 </div>
                 <div className="img-wrap">
-                  <img src="/hero_section/customize.png" alt="image-1" />
+                  <img src="/hero_section/customize.jpg" alt="image-1" />
                 </div>
                 <div className="img-wrap">
-                  <img src="/hero_section/2.png" alt="image-2" />
+                  <img src="/hero_section/2.jpg" alt="image-2" />
                 </div>
                 <div className="img-wrap">
                   <img src="/hero_section/katie.png" alt="image-3" />
                 </div>
                 <div className="img-wrap">
-                  <img src="/img/4.webp" alt="image-4" />
+                  <img src="/hero_section/3.jpg" alt="image-4" />
                 </div>
                 <div className="img-wrap">
                   <img src="/hero_section/5.jpg" alt="image-5" />
                 </div>
                 <div className="img-wrap">
-                  <img src="/hero_section/6.png" alt="image-6" />
+                  <img src="/hero_section/6.jpg" alt="image-6" />
                 </div>
                 <div className="img-wrap">
-                  <img src="/img/7.webp" alt="image-7" />
+                  <img src="/hero_section/7.jpg" alt="image-7" />
                 </div>
                 <div className="img-wrap">
                   <img src="/hero_section/leo.png" alt="image-8" />
                 </div>
                 <div className="img-wrap">
-                  <img src="/img/9.webp" alt="image-9" />
+                  <img src="/hero_section/9.jpg" alt="image-9" />
                 </div>
                 <div className="img-wrap">
                   <img src="/hero_section/Calculate.png" alt="image-10" />
@@ -297,10 +297,11 @@ export default function Home() {
             </Link> */}
             <SolutionCard img={"/needs/Hiring.jpg"} title={"Hiring Interviews"} desc={"Assess candidates for role fit and company culture"} focus={"Skills, experience, qualifications, and cultural fit"}></SolutionCard>
             <SolutionCard img={"/needs/Exit.jpg"} title={"Exit Interviews"} desc={"Gather feedback from departing employees to understand reasons and improve processes"} focus={"Employee satisfaction, reasons for leaving and potenitial improvements in company policies and culture"}></SolutionCard>
-            <SolutionCard img={"/needs/Engagement.jpg"} title={"Engagement Survey"} desc={"Gauge employee satisfaction, commitment and motivation"} focus={"Work environment, employee survey, job satisfaction, work-life balance, and career development"}></SolutionCard>
+            <SolutionCard img={"/needs/Development.jpg"} title={"Development Interviews"} desc={"Discuss career goals,skill development and future roles"} focus={"Career development, skill building, training needs, and succession planning"}></SolutionCard>
+           
             <SolutionCard img={"/needs/Performance.jpg"} title={"Performance Interviews"} desc={"Evaluate performane and provide feedback for growth"} focus={"Job performance, goal achievements, areas for improvement, and career development"}></SolutionCard>
             <SolutionCard img={"/needs/Promotion.jpg"} title={"Promotion Interviews"} desc={"Assess readiness for internal promotions and higher roles"} focus={"Leadership potential, readiness for increased responsibilty, and alignment with company values and goals"}></SolutionCard>
-            <SolutionCard img={"/needs/Development.jpg"} title={"Development Interviews"} desc={"Discuss career goals,skill development and future roles"} focus={"Career development, skill building, training needs, and succession planning"}></SolutionCard>
+            <SolutionCard img={"/needs/Engagement.jpg"} title={"Engagement Survey"} desc={"Gauge employee satisfaction, commitment and motivation"} focus={"Work environment, employee survey, job satisfaction, work-life balance, and career development"}></SolutionCard>
             <SolutionCard img={"/needs/Grievance.jpg"} title={"Grievance Interviews"} desc={"Address issues between employees or with management"} focus={"Resolving workplace disputes, improving communications, and ensuring a healthy work environment"}></SolutionCard>
             <SolutionCard img={"/needs/Health.jpg"} title={"Health and Well-being Interviews"} desc={"Check on an employee's physical and mental health"} focus={"Well being, work-life balance, stress management, and potential support needed"}></SolutionCard>
           </div>

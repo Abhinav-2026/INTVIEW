@@ -7,15 +7,15 @@ function NavMenu() {
     const [open, setOpen] = useState(false)
     return (
         <div className="container py-1"> {/* Reduced top spacing */}
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center h-[80px]">
         {/* Logo */}
         <Link href={"/"}>
-            <img src="/intview_logo/intview_logo-2.png" alt="" className="w-36 h-36 p-0 gap-0 mt-0"/> {/* Slightly smaller */}
+            <img src="/intview_logo/intview_logo-2.png" alt="" className="w-[170px] h-[170px] object-cover p-0 gap-0 mt-0" style={{ aspectRatio: "3/5" }}/> {/* Slightly smaller */}
         </Link>
 
         {/* Nav Menu */}
         <nav className={"navMenu " + (open ? "!flex" : "")}>
-            <ul className="flex flex-col lg:flex-row items-center text-white gap-16 text-xl" > {/* Reduced gap */}
+            <ul className="flex flex-col lg:flex-row items-center text-white gap-20 text-xl" > {/* Reduced gap */}
                 <li><Link href="/pricing">Pricing</Link></li>
                 <li><Link href="/team">Our Team</Link></li>
                 <li><Link href="/contact">Contact Us</Link></li>
@@ -29,9 +29,9 @@ function NavMenu() {
         </nav>
 
         {/* Cart & Shop (Hidden on small screens) */}
-        <div className="hidden lg:flex items-center gap-3"> {/* Hidden on small screens */}
+        <div className="hidden lg:flex items-center gap-8"> {/* Hidden on small screens */}
             <Link href="/cart" className="text-white">
-                <BsCart2 size={24} />
+                <BsCart2 size={36} />
             </Link>
             <Link href="/contact" className="btn">
                 Shop

@@ -212,9 +212,10 @@ body {
       .img-wrap {
         &:nth-of-type(1) {
           position: absolute;
-          max-width: 700px;
+          max-width: 900px;
           width: 40%;
           bottom: 19.9%;
+          // height: 900px;
           left: 50%;
           transform: translateX(-50%);
           z-index: 1;
@@ -261,14 +262,15 @@ body {
 
         &:nth-of-type(5) {
           position: absolute;
-          max-width: 60px;
-          width: 4%;
-          bottom: 42%;
-          left: 24.4%;
+          max-width: 197px;
+          width: 12%;
+          bottom: 17.9%;
+          left: 9.4%;
+          z-index: 1;
 
           @media (max-width: 1023px) {
-            top: 24%;
-            bottom: auto;
+            bottom: 22.9%;
+            left: 12.4%;
           }
         }
 
@@ -296,14 +298,14 @@ body {
 
         &:nth-of-type(8) {
           position: absolute;
-          max-width: 194px;
-          width: 11%;
-          bottom: 42.7%;
-          right: 25.8%;
-          z-index: 2;
+          max-width: 150px;
+          // width: 100%;
+          // height: 100%;
+          top:52%;
+          right: 12.8%;
 
           @media (max-width: 1023px) {
-            display: none;
+            top: 45%;
           }
         }
 
@@ -312,7 +314,7 @@ body {
           max-width: 150px;
           // width: 100%;
           // height: 100%;
-          top: 30%;
+          top: 20%;
           right: 12.8%;
 
           @media (max-width: 1023px) {
@@ -324,8 +326,8 @@ body {
           position: absolute;
           max-width: 262px;
           width: 15%;
-          bottom: 24%;
-          right: 10%;
+          bottom:20%;
+          right: 15%;
 
           @media (max-width: 1023px) {
             display: none;
@@ -339,7 +341,7 @@ body {
           top: 6.2%;
           right: 4%;
           z-index: 1;
-
+          display:none;
           @media (max-width: 1023px) {
             bottom: 26.2%;
             top: auto;
@@ -363,7 +365,29 @@ body {
       }
     }
   }
-
+  .marqueeTxt {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+  }
+  
+  .marqueeText {
+    position: relative;
+    background: linear-gradient(122deg, #edb89c 0%, #7769e6 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; /* Ensures the gradient is visible */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 50px;
+    letter-spacing: -0.07em;
+    line-height: 1em;
+    font-weight: 500;
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+  
+  /* Ensure your font is loaded */
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+  
   #reward {
     position: relative;
 
@@ -583,7 +607,7 @@ body {
   #pricingHero {
     min-height: 500px;
     background: url("/img/10001.jpg");
-    margin-top: -91.8px;
+    margin-top: -20.8px;
     display: flex;
     justify-content: center;
     align-items: center;
