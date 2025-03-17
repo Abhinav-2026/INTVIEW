@@ -22,8 +22,19 @@ function page() {
       img: "/team/imagee-11.jpg",
       linkedin: 'https://www.linkedin.com/',
       location:"Bangalore,India"
-
     },
+    {
+      name:'Srinu',
+      img:"/team/imagee-11.jpg",
+      linkedin: 'https://www.linkedin.com/',
+      location:"Germany"
+    },
+    {
+      name:'Bhargav',
+      img:"/team/imagee-11.jpg",
+      linkedin: 'https://www.linkedin.com/',
+      location:"Seattle,USA"
+    }
   ]
   return (
     <>
@@ -52,7 +63,7 @@ function page() {
       </section>
       <section>
         <div className="container">
-          <div className="grid lg:grid-cols-3 grid-cols-2 gap-5 lg:gap-10">
+          <div className="grid lg:grid-cols-5 grid-cols-2 gap-5 lg:gap-10">
             {teams.map((team, index) => (
               <TeamCard key={index} info={team} />
             ))}

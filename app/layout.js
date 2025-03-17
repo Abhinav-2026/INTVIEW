@@ -46,10 +46,10 @@ export default function RootLayout({ children }) {
           <div className="container  relative z-10">
             <div className='max-w-3xl mx-auto'>
               <p className="text-center lg:mt-10 text-white uppercase">
-                Step into the Future of Interviews with INTVIEW
+                Step into the Future of Conversational AI.
               </p>
               <h3 className="text-2xl text-center mt-5 lg:mt-0  text-white leading-relaxed">
-                INTVIEW equips your team with conversational AI interviews and actionable data insights to accelerate and streamline your recruitment process
+                INTVIEW uses Conversational AI to enable diverse interactions, providing actionable insights and better outcomes.
               </h3>
               <div className="text-center">
                 <button className='btn mt-10'>Get Started</button>

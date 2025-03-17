@@ -16,10 +16,10 @@ function NavMenu() {
         {/* Nav Menu */}
         <nav className={"navMenu " + (open ? "!flex" : "")}>
             <ul className="flex flex-col lg:flex-row items-center text-white gap-20 text-xl" > {/* Reduced gap */}
-                <li><Link href="/pricing">Pricing</Link></li>
+                {/* <li><Link href="/pricing">Pricing</Link></li> */}
                 <li><Link href="/team">Our Team</Link></li>
                 <li><Link href="/contact">Contact Us</Link></li>
-                <li><Link href="/login">Log in</Link></li>
+                {/* <li><Link href="/login">Log in</Link></li> */}
             </ul>
 
             {/* Close Button */}

@@ -159,12 +159,24 @@ body {
       }
 
       h2 {
-        font-size: 70px;
+        font-size: 70px;  /* Default for large screens */
         line-height: 1.1;
       }
-
+      
+      /* For smaller screens (phones) */
+      @media (max-width: 768px) { 
+        h2 {
+          font-size: 40px; /* Adjust for tablets */
+        }
+      }
+      
+      @media (max-width: 480px) { 
+        h2 {
+          font-size: 10px; /* Adjust for phones */
+        }
+      }
       .desc {
-        max-width: 450px;
+        // max-width: 450px;
         margin: 0.35em auto 0;
         font-size: 19px;
         line-height: 32px;
@@ -497,46 +509,46 @@ body {
     .reviewsWrp {
       position: relative;
 
-      &::after,
-      &::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        width: 100%;
-        height: 190px;
-        z-index: 1;
-        pointer-events: none;
-      }
+    //   &::after,
+    //   &::before {
+    //     content: "";
+    //     position: absolute;
+    //     left: 0;
+    //     width: 100%;
+    //     height: 190px;
+    //     z-index: 1;
+    //     pointer-events: none;
+    //   }
 
-      &::before {
-        top: -4%;
-        background-image: linear-gradient(
-          180deg,
-          #0a0b20 0%,
-          #0a0b20 20%,
-          rgba(10, 11, 32, 0) 100%
-        );
-      }
+    //   &::before {
+    //     top: -4%;
+    //     background-image: linear-gradient(
+    //       180deg,
+    //       #0a0b20 0%,
+    //       #0a0b20 20%,
+    //       rgba(10, 11, 32, 0) 100%
+    //     );
+    //   }
 
-      &::after {
-        bottom: -4%;
-        background-image: linear-gradient(
-          0deg,
-          #0a0b20 0%,
-          #0a0b20 20%,
-          rgba(10, 11, 32, 0) 100%
-        );
-      }
+    //   &::after {
+    //     bottom: -4%;
+    //     background-image: linear-gradient(
+    //       0deg,
+    //       #0a0b20 0%,
+    //       #0a0b20 20%,
+    //       rgba(10, 11, 32, 0) 100%
+    //     );
+    //   }
+    // }
     }
+    // .testiList {
+    //   animation: scrollTesti 30s linear infinite;
+    //   transition: 0.3s all ease;
 
-    .testiList {
-      animation: scrollTesti 30s linear infinite;
-      transition: 0.3s all ease;
-
-      &:hover {
-        animation-play-state: paused;
-      }
-    }
+    //   &:hover {
+    //     animation-play-state: paused;
+    //   }
+    // }
   }
 
   .mqslides {

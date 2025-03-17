@@ -49,7 +49,8 @@ export default function Home() {
                   delaySpeed={1000}
                 /> With INTVIEW
               </h2>
-              <p className='desc'>Streamlining Communication, Empowers Connections, and Driving Smarter Decisions</p>
+              <p className='desc w-full text-center'>Streamline Communication, Empowers Connections, Drive Decisions</p>
+
 
               <div className="scene relative">
                 <div className="img-wrap">
@@ -94,46 +95,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id='whatsNew' className='py-10 z-20 relative bg-[#0A0B20] '>
-        <div className="container">
-          {/* <h3 className="subttl text-white text-center">
-            HUGE UPDATE
-          </h3> */}
-          <h2 className='ttl text-white text-center'>
-            Unique Benefits of INTVIEW
-          </h2>
-          <div className="grid grid-cols-2 gap-2  lg:gap-10 mt-10 lg:grid-cols-3">
-            <div>
-              <img src="/benefits/new1.jpg" alt="" className="w-full rounded-xl" />
-            </div>
-            <div>
-              <img src="/benefits/new2.jpg" alt="" className="w-full rounded-xl" />
-            </div>
-            <div>
-              <img src="/benefits/new3.jpg" alt="" className="w-full rounded-xl" />
-            </div>
-            <div>
-              <img src="/benefits/new4.jpg" alt="" className="w-full rounded-xl" />
-            </div>
-            <div>
-              <img src="/benefits/new6.jpg" alt="" className="w-full rounded-xl" />
-            </div>
-            <div>
-              <img src="/benefits/new0.jpg" alt="" className="w-full rounded-xl" />
-            </div>
-            <div>
-              <img src="/benefits/new7.jpg" alt="" className="w-full rounded-xl" />
-            </div>
-            <div>
-              <img src="/benefits/new8.jpg" alt="" className="w-full rounded-xl" />
-            </div>
-            <div>
-              <img src="/benefits/new9.jpg" alt="" className="w-full rounded-xl" />
-            </div>
-          </div>
-
-        </div>
-      </section>
+    
       {/* <section id="reward" className="py-10 lg:py-20">
         <div className="container relative z-10">
           <img className='max-w-[320px] lg:max-w-[450px] mx-auto' src="/img/reward.webp" alt="" />
@@ -241,78 +203,13 @@ export default function Home() {
       </section> */}
 
       {/*  */}
-      <section id="cts" className='pb-10 lg:pb-20 mt-20'>
-        <div className="container">
-          <div className="ttl text-center font-bold text-white leading-tight">
-            Your Complete Solution for  <br /><span >End-to-End Interviewing Needs</span>
-          </div>
-          <div className="grid mt-10 lg:grid-cols-3 gap-8">
-            {/* <Link href="/" className="crd pt-10 pb-5 px-10 text-center bg-white">
-              <img className='w-12 mx-auto mb-5' src="\needs\Hiring.jpg" alt="" />
-              <h3 className='text-2xl text-center'>Hiring Interviews</h3>
-              <p>Assess candidates for role fit and company culture</p>
-              <p><span>Focus:</span> Skills,experience,qualifications and cultural fit.</p>
-            </Link>
-            <Link href="/" className="crd pt-10 pb-5 px-10 text-center bg-[#DAE8F1]">
-            <img className='w-12 mx-auto mb-5' src="\needs\Exit.jpg" alt="" />
-              <h3 className='text-2xl text-center'>Exit Interviews</h3>
-              <p>Gather feedback from departing employees to understand reasons and improve processes</p>
-              <p><span>Focus:</span> Employee satisfaction,reasons for leaving and potential improvements in company policies and culture</p>
-            </Link>
-            <Link href="/" className="crd pt-10 pb-5 px-10 text-center bg-white">
-            <img className='w-12 mx-auto mb-5' src="\needs\Engagement.jpg" alt="" />
-              <h3 className='text-2xl text-center'>Engagement Survey</h3>
-              <p>Gauge employee satisfaction,commitment and motivation</p>
-              <p><span>Focus:</span>Work environment,employee survey,job satisfaction,work-life balance,and career development.</p>
-            </Link>
-            <Link href="/" className="crd pt-10 pb-5 px-10 text-center bg-white">
-            <img className='w-12 mx-auto mb-5' src="\needs\Performance.jpg" alt="" />
-              <h3 className='text-2xl text-center'>Performance Interviews</h3>
-              <p>Evaluate performance and provide feedback for growth</p>
-              <p><span>Focus:</span>Job performance,goal achievements,areas for improvement and career development</p>
-            </Link>
-            <Link href="/" className="crd pt-10 pb-5 px-10 text-center bg-white">
-            <img className='w-12 mx-auto mb-5' src="\needs\Promotion.jpg" alt="" />
-              <h3 className='text-2xl text-center'>Promotion Interviews</h3>
-              <p>Assess readiness for internal promotions and higher roles.</p>
-              <p><span>Focus:</span>Leadership potential,readiness for increased responsibility and alignment with company values and goals.</p>
-            </Link>
-            <Link href="/" className="crd pt-10 pb-5 px-10 text-center bg-white">
-            <img className='w-12 mx-auto mb-5' src="\needs\Development.jpg" alt="" />
-              <h3 className='text-2xl text-center'>Development Interviews</h3>
-              <p>Discuss career goals,skill development and future roles</p>
-              <p><span>Focus:</span>Carrer development,skill-building,training needs and succession planning</p>
-            </Link>
-            <Link href="/" className="crd pt-10 pb-5 px-10 text-center bg-white">
-            <img className='w-12 mx-auto mb-5' src="\needs\Grievance.jpg" alt="" />
-              <h3 className='text-2xl text-center'>Grievance Interviews</h3>
-              <p>Address issues between employees or with management</p>
-              <p><span>Focus:</span>Resolving workplace disputes,improving communication and ensuring a healthy work environment.</p>
-            </Link>
-            <Link href="/" className="crd pt-10 pb-5 px-10 text-center bg-white">
-            <img className='w-12 mx-auto mb-5' src="\needs\Health.jpg" alt="" />
-              <h3 className='text-2xl text-center'>Health and Well-being Interviews</h3>
-              <p>Check on an employee's physical and mental health.</p>
-              <p><span>Focus:</span>Well being ,work life balance ,stress management,and potential support needed</p>
-            </Link> */}
-            <SolutionCard img={"/needs/Hiring.jpg"} title={"Hiring Interviews"} desc={"Assess candidates for role fit and company culture"} focus={"Skills, experience, qualifications, and cultural fit"}></SolutionCard>
-            <SolutionCard img={"/needs/Exit.jpg"} title={"Exit Interviews"} desc={"Gather feedback from departing employees to understand reasons and improve processes"} focus={"Employee satisfaction, reasons for leaving and potenitial improvements in company policies and culture"}></SolutionCard>
-            <SolutionCard img={"/needs/Development.jpg"} title={"Development Interviews"} desc={"Discuss career goals,skill development and future roles"} focus={"Career development, skill building, training needs, and succession planning"}></SolutionCard>
-           
-            <SolutionCard img={"/needs/Performance.jpg"} title={"Performance Interviews"} desc={"Evaluate performane and provide feedback for growth"} focus={"Job performance, goal achievements, areas for improvement, and career development"}></SolutionCard>
-            <SolutionCard img={"/needs/Promotion.jpg"} title={"Promotion Interviews"} desc={"Assess readiness for internal promotions and higher roles"} focus={"Leadership potential, readiness for increased responsibilty, and alignment with company values and goals"}></SolutionCard>
-            <SolutionCard img={"/needs/Engagement.jpg"} title={"Engagement Survey"} desc={"Gauge employee satisfaction, commitment and motivation"} focus={"Work environment, employee survey, job satisfaction, work-life balance, and career development"}></SolutionCard>
-            <SolutionCard img={"/needs/Grievance.jpg"} title={"Grievance Interviews"} desc={"Address issues between employees or with management"} focus={"Resolving workplace disputes, improving communications, and ensuring a healthy work environment"}></SolutionCard>
-            <SolutionCard img={"/needs/Health.jpg"} title={"Health and Well-being Interviews"} desc={"Check on an employee's physical and mental health"} focus={"Well being, work-life balance, stress management, and potential support needed"}></SolutionCard>
-          </div>
-        </div>
-      </section>
+      
 
       {/*  */}
       <section id="features" className="py-10 max-w-screen overflow-hidden lg:py-20">
         <div className="container">
           <h2 className="ttl text-center text-[#5890E7]">
-            What are the benefits of using INTVIEW?
+            Serving Every Industry
           </h2>
         </div>
         <div className="mt-20 mb-10 -rotate-3">
@@ -323,19 +220,19 @@ export default function Home() {
             <div className='marqueeTxt flex items-center'>
 
               <div className="rounded-2xl bg-[#24313E] hover:bg-[#5890E7] p-3 mx-1 font-Plus_Jakarta_Sans text-white font-semibold text-lg">
-                1. Simplify the Interview Workflow
+                1. IT & Software
               </div>
               <div className="rounded-2xl bg-[#24313E] hover:bg-[#5890E7] p-3 mx-1 font-Plus_Jakarta_Sans text-white font-semibold text-lg">
-                2. Accelerate and Optimize Hiring
+                2. Banking & Finance
               </div>
               <div className="rounded-2xl bg-[#24313E] hover:bg-[#5890E7] p-3 mx-1 font-Plus_Jakarta_Sans text-white font-semibold text-lg">
-                3. Eliminate Scheduling Conflicts
+                3. Logistics
               </div>
               <div className="rounded-2xl bg-[#24313E] hover:bg-[#5890E7] p-3 mx-1 font-Plus_Jakarta_Sans text-white font-semibold text-lg">
-                4. Effortlesly Scale Your Hiring Effects.
+                4. HealthCare & Hospitals
               </div>
               <div className="rounded-2xl bg-[#24313E] hover:bg-[#5890E7] p-3 mx-1 font-Plus_Jakarta_Sans text-white font-semibold text-lg">
-                5. Make Data-Driven,Unbiased Decisions
+                5. Retail & E-Commerce
               </div>
             </div>
           </Marquee>
@@ -345,53 +242,18 @@ export default function Home() {
             direction='right'
             autoFill={true}>
             <div className="rounded-2xl bg-[#24313E] hover:bg-[#5890E7] p-3 mx-1 font-Plus_Jakarta_Sans text-white font-semibold text-lg">
-              6. Prevent Recuiter Burnout
+              6. Staffing Agencies
             </div>
             <div className="rounded-2xl bg-[#24313E] hover:bg-[#5890E7] p-3 mx-1 font-Plus_Jakarta_Sans text-white font-semibold text-lg">
-              7. Quickly Secure Top Talent
+              7. Manufacturing
             </div>
             <div className="rounded-2xl bg-[#24313E] hover:bg-[#5890E7] p-3 mx-1 font-Plus_Jakarta_Sans text-white font-semibold text-lg">
-              8. Conduct Hundreds of Interviews at Once
+              8. Government
             </div>
           </Marquee>
         </div>
       </section>
-      <section id="textGenerator" className="mb-10 relative lg:mb-20">
-        <div className="container relative z-10">
-          <h3 className="ttl text-center text-white">
-            Hiring Challenges ? INTVIEW Has the Solution 
-          </h3>
-          <p className="text-center mb-8">
-            Leverage Conversational AI to eliminate bias,reduce hiring time and uncover the right talent with adaptive interviews.
-          </p>
-          {/* <div className="grid max-w-6xl mt-10 lg:-translate-x-[60px] mx-auto items-center lg:grid-cols-7 gap-5 lg:gap-0"> */}
-            {/* <div className='space-y-5 relative  z-10 lg:translate-x-[50%]'>
-              <div className="bg-white text-center p-5 rounded-xl">
-                <img src="/img/tg1.svg" className='w-9 mx-auto' alt="" />
-                <h6 className='mt-3 text-lg'>
-                  Summarization
-                </h6>
-              </div>
-              <div className="bg-white text-center p-5 rounded-xl">
-                <img src="/img/tg2.svg" className='w-9 mx-auto' alt="" />
-                <h6 className='mt-3 text-lg'>
-                  Translation
-                </h6>
-              </div>
-              <div className="bg-white text-center p-5 rounded-xl">
-                <img src="/img/tg3.svg" className='w-9 mx-auto' alt="" />
-                <h6 className='mt-3 text-lg'>
-                  Spell check
-                </h6>
-              </div>
-            </div> */}
-            <div className="lg:col-span-6">
-              <img src="/hero_section/Hiring.png" className='w-full rounded-xl' alt="" />
-            </div>
-          </div>
-        {/* </div> */}
-        <video src="/videos/video-bg2.mp4" autoPlay muted loop className="videoBg"></video>
-      </section>
+     
       {/*  */}
       {/* <section id="benifits" className="py-10 lg:py-20">
         <div className="container">
@@ -509,86 +371,72 @@ export default function Home() {
         </div>
       </section> */}
       {/*  */}
-      <section id="testimonials" className="pb-10 lg:pb-20">
-        <div className="container">
-          <h2 className="ttl text-center text-white">
-            Why INTVIEW is a Game-Changer
-          </h2>
-          <p className="mt-1 text-center">
-           Exclusive Sneak Peek:What Users Think
-          </p>
-          <div className="mt-10 overflow-hidden h-[500px] lg:h-[800px] grid-cols-2 grid lg:grid-cols-3 gap-5 reviewsWrp">
+      <section id="testimonials" className="relative bg-[#0a0b20] py-10 lg:py-20">
+  {/* Gradient Overlays */}
+  <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#0a0b20] via-[#0a0b20] to-transparent pointer-events-none"></div>
+  <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0a0b20] via-[#0a0b20] to-transparent pointer-events-none"></div>
 
-            <div className='testiList flex flex-col gap-5'>
+  <div className="container mx-auto px-5">
+    {/* Section Title */}
+    <h2 className="text-center text-white text-3xl lg:text-4xl font-bold">
+      Exclusive Sneak Peek: What Users Think
+    </h2>
 
+    {/* Testimonials Wrapper */}
+    <div className="mt-10 overflow-hidden max-h-[90vh] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 reviewsWrp">
+      {[...Array(3)].map((_, idx) => (
+        <div key={idx} className="testiList flex flex-col gap-5">
+          {idx === 0 && (
+            <>
               <ReviewsCard
-              name="Laniece Tovar" position="Sales Coordinator" review="In a world where time always feels
-so limited, the idea behind this
-system really stands out. The
-thought of having technology
-handle the time-consuming work
-and support smarter, more
-informed decisions is incredible.
-This product is absolutely genius."></ReviewsCard>
-
-<ReviewsCard
-              name="Chandler Sooferan" position="Vice President" review="I just had a pretty meaningful
-conversation with Katie. I am
-impressed at how conversational
-she was."></ReviewsCard>
-
-              {/* <ReviewsCard rating={3} img="/img/customer-3.png" name="juicypen" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi magnam repudiandae soluta quo earum quas explicabo placeat beatae aperiam." title={"Design Quality"} /> */}
-
-            </div>
-            <div className='testiList flex flex-col gap-5'>
-
-            <ReviewsCard
-              name="Cory West" position="Lead Trainer" review="Katie sounded like a real person.
-We had a great conversation and
-interview. I’m impressed with how
-well the AI can respond based on
-the answers you provide."></ReviewsCard>
-
-            <ReviewsCard
-              name="Jake Groat" position="AVP Operations and Compliance" review="This tool is impressive. I’m
-interested to see how this tool
-evolves."></ReviewsCard>
-
-              {/* <ReviewsCard rating={3} img="/img/customer-1.png" name="juicypen" des="Lorem ipsum dolor sit amet consectetur." title={"Design Quality"} /> */}
-
-            </div>
-            <div className='testiList flex flex-col gap-5'>
-
-             <ReviewsCard
-              name="Richard Ybarra" position="Senior Manager,
-
-Marketing Operations & Strategy" review="Katie sounds exactly like a real
-              person. This is great for companies
-              who don’t have a lot to invest in
-              recruiters but have aggressive
-              growth targets."></ReviewsCard>
-
-<ReviewsCard
-              name="Laniece Tovar" position="Sales Coordinator" review="Katie (the AI) is patient and waits
-for your response to questions. She
-also responds pretty quickly after
-you’re done providing your
-answers."></ReviewsCard>
-              {/* <ReviewsCard rating={3} img="/img/customer-3.png" name="juicypen" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi magnam repudiandae soluta quo earum quas explicabo placeat beatae aperiam." title={"Design Quality"} /> */}
-
-            </div>
-            {/* <div className='testiList flex flex-col gap-5'>
-
-              <ReviewsCard rating={5} img="/img/customer-1.webp" name="juicypen" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi magnam repudiandae soluta quo earum quas explicabo placeat beatae aperiam." title={"Design Quality"} />
-
-              <ReviewsCard rating={4} img="/img/customer-2.webp" name="juicypen" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi magnam repudiandae soluta quo earum quas explicabo placeat beatae aperiam." title={"Design Quality"} />
-
-              <ReviewsCard rating={3} img="/img/customer-3.png" name="juicypen" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi magnam repudiandae soluta quo earum quas explicabo placeat beatae aperiam." title={"Design Quality"} />
-
-            </div> */}
-          </div>
+                name="Laniece Tovar"
+                position="Sales Coordinator"
+                review="In a world where time always feels so limited, the idea behind this system really stands out."
+              />
+              <ReviewsCard
+                name="Chandler Sooferan"
+                position="Vice President"
+                review="I just had a pretty meaningful conversation with Katie. I am impressed at how conversational she was."
+              />
+            </>
+          )}
+          {idx === 1 && (
+            <>
+              <ReviewsCard
+                name="Cory West"
+                position="Lead Trainer"
+                review="Katie sounded like a real person. We had a great conversation and interview."
+              />
+              <ReviewsCard
+                name="Jake Groat"
+                position="AVP Operations and Compliance"
+                review="This tool is impressive. I’m interested to see how this tool evolves."
+              />
+            </>
+          )}
+          {idx === 2 && (
+            <>
+              <ReviewsCard
+                name="Richard Ybarra"
+                position="Senior Manager, Marketing Operations & Strategy"
+                review="Katie sounds exactly like a real person. This is great for companies with aggressive growth targets."
+              />
+              <ReviewsCard
+                name="Laniece Tovar"
+                position="Sales Coordinator"
+                review="Katie (the AI) is patient and waits for your response. She also responds quickly."
+              />
+            </>
+          )}
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+
+  {/* Keyframe Animation */}
+</section>
+
+
       {/*  */}
       {/* <section id="features1" className='pb-10 lg:pb-20'>
         <div className="container">
@@ -655,38 +503,7 @@ answers."></ReviewsCard>
       </section> */}
 
       {/*  */}
-      <section id="collections" className="py-10 bg-[#070818] lg:py-20">
-        <div className="container">
-          <p className="text-white text-sm font-semibold uppercase">
-            {/* Customize everything */}
-          </p>
-          <div className="grid pb-10 lg:grid-cols-5 gap-5">
-
-            <div className="lg:col-span-3">
-
-              <h2 className="ttl text-white">
-                Industries Served
-              </h2>
-            </div>
-            <div className="lg:col-span-2">
-              <p>
-                {/* Customize your theme to a great extent and make it truly your own! Change colors, typography and many other visual aspects. */}
-              </p>
-            </div>
-          </div>
-          <ColectionsSlider
-            images={[
-             "/slide-7/HrConsulting.jpg",
-             "/slide-7/banking.jpg",
-             "/slide-7/Logistics.jpg",
-             "/slide-7/health-0.jpg",
-             "/slide-7/Manufacturing.jpg",
-             "/slide-7/retail.jpg",
-             "/slide-7/it.jpg"
-            ]}
-          />
-        </div>
-      </section>
+   
 
       {/* <section className="py-10 lg:py-20">
         <div className="">
