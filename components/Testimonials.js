@@ -14,7 +14,7 @@ function Testimonials() {
   return (
     <section id="testimonials" className="relative bg-[#0a0b20] py-10 lg:py-20">
       {/* Gradient Overlays */}
-      <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#0a0b20] via-[#0a0b20] to-transparent pointer-events-none"></div>
+      <div className="absolute top-0 left-0 w-full bg-gradient-to-b from-[#0a0b20] via-[#0a0b20] to-transparent pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0a0b20] via-[#0a0b20] to-transparent pointer-events-none"></div>
 
       <div className="container mx-auto px-5">
