@@ -9,19 +9,19 @@ function page() {
       name: 'Lohith Ravi',
       img: "/team/imagee-12.jpg",
       linkedin: 'https://www.linkedin.com/',
-      location:"Seattle,USA",
+      location:"Seattle, USA",
     },
     {
       name: 'Korey Jones',
-      img: "/team/imagee-1.png",
+      img: "/team/imagee-1.jpg",
       linkedin: 'https://www.linkedin.com/',
-      location:"Los Angeles,USA"
+      location:"Los Angeles, USA"
     },
     {
       name: 'Harish Kuppam',
       img: "/team/imagee-11.jpg",
       linkedin: 'https://www.linkedin.com/',
-      location:"Bangalore,India"
+      location:"Bangalore, India"
     },
     {
       name:'Srinu',
@@ -33,7 +33,7 @@ function page() {
       name:'Bhargav',
       img:"/team/imagee-11.jpg",
       linkedin: 'https://www.linkedin.com/',
-      location:"Seattle,USA"
+      location:"Seattle, USA"
     }
   ]
   return (
@@ -47,16 +47,7 @@ function page() {
               Who We Are
 
             </p>
-            <h2 className="text-white text-4xl lg:text-5xl mt-5 leading-tight">We are a team of innovators redefining hiring through Conversational AI. <br />
-            INTVIEW <Typewriter
-                  words={['streamlines interviews', 'find right talent faster', 'eliminate bias']}
-                  loop={true}
-                  cursor
-                  cursorStyle='_'
-                  typeSpeed={70}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
-                /> 
+            <h2 className="text-white text-4xl lg:text-5xl mt-5 leading-tight">We are a team of AI scientists and enthusiasts, revolutionizing Conversational AI to meet every need.
             </h2>
           </div>
         </div>

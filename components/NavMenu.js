@@ -15,7 +15,7 @@ function NavMenu() {
 
         {/* Nav Menu */}
         <nav className={"navMenu " + (open ? "!flex" : "")}>
-            <ul className="flex flex-col lg:flex-row items-center text-white gap-20 text-xl" > {/* Reduced gap */}
+            <ul className="flex flex-col lg:flex-row items-center text-white gap-28 text-xl" > {/* Reduced gap */}
                 {/* <li><Link href="/pricing">Pricing</Link></li> */}
                 <li><Link href="/team">Our Team</Link></li>
                 <li><Link href="/contact">Contact Us</Link></li>
@@ -29,9 +29,9 @@ function NavMenu() {
         </nav>
 
         {/* Cart & Shop (Hidden on small screens) */}
-        <div className="hidden lg:flex items-center gap-8"> {/* Hidden on small screens */}
+        <div className="hidden lg:flex items-center gap-12"> {/* Hidden on small screens */}
             <Link href="/cart" className="text-white">
-                <BsCart2 size={36} />
+                <img src="/hero_section/Icons-11.png" alt="cart" height={40} width={40}></img>
             </Link>
             <Link href="/contact" className="btn">
                 Shop
