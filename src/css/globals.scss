@@ -240,7 +240,7 @@ body {
 }
 
 .img-wrap:nth-of-type(2) {
-  top: 15.4%;
+  top: 14%;
   left: 16%;
   height: 200px;
   width: 200px;
@@ -255,17 +255,17 @@ body {
 
 .img-wrap:nth-of-type(3) {
   max-width: 200px;
-  width: 10%;
-  bottom: 40.9%;
-  left: 19%;
+  width: 11%;
+  bottom: 45.9%;
+  left: 18%;
   z-index: 1;
 }
 
 .img-wrap:nth-of-type(4) {
   max-width: 400px;
-  width: 13%;
+  width: 16%;
   bottom: 4.9%;
-  left: 18%;
+  left: 14.5%;
   z-index: 1;
 }
 
@@ -280,30 +280,30 @@ body {
 
 .img-wrap:nth-of-type(6) {
   max-width: 200px;
-  width: 10%;
-  bottom: 40.9%;
-  right: 19%;
+  width: 11%;
+  bottom: 45.9%;
+  right: 18%;
   z-index: 1;
 }
 
 .img-wrap:nth-of-type(7) {
   max-width: 400px;
-  width: 13%;
+  width: 16%;
   bottom: 4.9%;
-  right: 18%;
+  right: 14.5%;
   z-index: 1;
 }
 
 .img-wrap:nth-of-type(8) {
-  top: 15.4%;
+  top: 14%;
   right: 16%;
   height: 200px;
   width: 200px;
 }
 
 .img-wrap:nth-of-type(9) {
-  max-width: 100px;
-  width: 30%;
+  max-width: 200px;
+  width: 50%;
   bottom: 30%;
   left: 50%;
   transform: translateX(-50%);
@@ -311,6 +311,7 @@ body {
 }
 
 /* ===== Modal Styling (Only for Video) ===== */
+/* Modal Background */
 .modal {
   position: fixed;
   top: 0;
@@ -324,6 +325,7 @@ body {
   z-index: 1000;
 }
 
+/* Modal Content */
 .modal-content {
   background: #fff;
   padding: 20px;
@@ -333,12 +335,14 @@ body {
   width: 600px;
 }
 
+/* Video Styling */
 .modal-content video {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
+/* Close Button */
 .close {
   position: absolute;
   top: 10px;
@@ -347,6 +351,12 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
+/* Prevent background scrolling when modal is open */
+body.modal-open {
+  overflow: hidden;
+}
+
   }
   .marqueeTxt {
     display: flex;
@@ -749,36 +759,7 @@ body {
     height: 200px;
   }
 }
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.modal-content {
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  position: relative;
-  max-width: 80%;
-  text-align: center;
-}
-
-.close {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  font-size: 24px;
-  cursor: pointer;
-  color: #000;
-}
+// 
 
 video {
   max-width: 100%;

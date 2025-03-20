@@ -1,8 +1,20 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const ImageGallery = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const videoRef = useRef(null);
+
+  // Disable scrolling when modal is open
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.style.overflow = "hidden"; // Prevent scrolling
+    } else {
+      document.body.style.overflow = "auto"; // Restore scrolling
+    }
+    return () => {
+      document.body.style.overflow = "auto"; // Cleanup on unmount
+    };
+  }, [isModalOpen]);
 
   const closeModal = () => {
     if (videoRef.current) {

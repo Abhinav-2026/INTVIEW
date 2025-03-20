@@ -25,13 +25,13 @@ function page() {
     },
     {
       name:'Srinu',
-      img:"/team/imagee-11.jpg",
+      img:"/team/blank_image.png",
       linkedin: 'https://www.linkedin.com/',
       location:"Germany"
     },
     {
       name:'Bhargav',
-      img:"/team/imagee-11.jpg",
+      img:"/team/blank_image.png",
       linkedin: 'https://www.linkedin.com/',
       location:"Seattle, USA"
     }

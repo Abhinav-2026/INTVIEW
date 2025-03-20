@@ -40,7 +40,7 @@ export default function Home() {
               <div className="badge ">
                 Try It
               </div>
-              <h2 className="text-white">The Conversational AI Interface for Every Need<br />
+              <h2 className="text-white">The Conversational AI Marketplace for Every Need<br />
                 <Typewriter
                   words={['Hiring', 'Survey', 'Engage','Social']}
                   loop={true}
@@ -68,7 +68,7 @@ export default function Home() {
 
     
 
-      <section id="aiPContent" className='pb-10 lg:pb-20'>
+      <section id="aiPContent" className='pb-10 lg:pb-0'>
         <div className="container">
           <h2 className="ttl text-white text-center max-w-2xl leading-tight mx-auto">
             Discover Diverse Categories
