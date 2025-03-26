@@ -117,7 +117,41 @@ function page() {
     </div>
   </div>
 </section>
+<section className="py-10 lg:py-20" id="contactCards">
+  <div className="container">
+    <div className="grid lg:grid-cols-2  text-center">
+      {/* Phone */}
+      <div className="crd flex flex-col items-center gap-4">
+        <div className="bgTxt flex items-center justify-center w-12 h-12 text-xl">
+          <BsTelephone />
+        </div>
+        <a href="#" className="txt text-lg font-medium">
+          +1(800)123-4665
+        </a>
+      </div>
 
+      {/* Address */}
+      <div className="crd flex flex-col items-center gap-4">
+        <div className="bgTxt flex items-center justify-center w-12 h-12 text-xl">
+          <HiBuildingOffice2 />
+        </div>
+        <a href="#" className="txt text-lg font-medium">
+          123 Main St, New York, NY 10001
+        </a>
+      </div>
+
+      {/* Email */}
+      <div className="crd flex flex-col items-center gap-4">
+        <div className="bgTxt flex items-center justify-center w-12 h-12 text-xl">
+          <MdOutlineMail />
+        </div>
+        <a href="mailto:korey@intview.io" className="txt text-lg font-medium">
+          korey@intview.io
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
         </>
 
     )
