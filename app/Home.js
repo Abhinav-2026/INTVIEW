@@ -34,7 +34,7 @@ export default function Home() {
                             </div>
                             <h2 className="text-white">The Conversational AI Interface for Every Need<br />
                                 <Typewriter
-                                    words={['Hiring', 'Survey', 'Engage', 'Social']}
+                                    words={['Hiring','Survey','Engage','Social']}
                                     loop={true}
                                     cursor
                                     cursorStyle='_'
@@ -51,10 +51,11 @@ export default function Home() {
             </section>
 
 
-
-            <div className="mt-16 relative z-10 lg:mt-20 container mb-28">
+             <section className='gap-12'>
+            <div className="container">
                 <MarqueeComponent />
             </div>
+            </section>
 
 
 
@@ -93,11 +94,10 @@ export default function Home() {
                 </div>
                 <div className="mt-20 mb-10 -rotate-3">
                     <Marquee speed={50}
-
                         pauseOnHover={true}
                         autoFill={true}>
                         <div className='marqueeTxt flex items-center'>
-
+                    
                             <div className="rounded-2xl bg-[#24313E] hover:bg-[#5890E7] p-3 mx-1 font-Plus_Jakarta_Sans text-white font-semibold text-lg">
                                 IT & Software
                             </div>
@@ -110,7 +110,10 @@ export default function Home() {
                             <div className="rounded-2xl bg-[#24313E] hover:bg-[#5890E7] p-3 mx-1 font-Plus_Jakarta_Sans text-white font-semibold text-lg">
                                 HealthCare & Hospitals
                             </div>
-
+                            <div className="rounded-2xl bg-[#24313E] hover:bg-[#5890E7] p-3 mx-1 font-Plus_Jakarta_Sans text-white font-semibold text-lg">
+                                g
+                            </div>
+                    
                         </div>
                     </Marquee>
                     <div className="pt-2.5"></div>

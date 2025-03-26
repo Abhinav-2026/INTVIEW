@@ -42,7 +42,7 @@ export default function Home() {
               </div>
               <h2 className="text-white">The Conversational AI Marketplace for Every Need<br />
                 <Typewriter
-                  words={['Hiring', 'Survey', 'Engage','Social']}
+                  words={['Hiring','Survey','Engage','Social']}
                   loop={true}
                   cursor
                   cursorStyle='_'
@@ -60,17 +60,17 @@ export default function Home() {
       </section>
 
     
-      
-       <div className="mt-16 relative z-10 lg:mt-20 container mb-28">
+       <section className='mt-20 relative z-10 ' >
+       <div className="">
           <MarqueeComponent/>
         </div>
-      
-
+       </section>     
+ 
     
 
-      <section id="aiPContent" className='pb-10 lg:pb-0'>
+      <section id="aiPContent" className='pb-10 lg:pb-0 mt-20'>
         <div className="container">
-          <h2 className="ttl text-white text-center max-w-2xl leading-tight mx-auto">
+          <h2 className="ttl text-white  text-center max-w-2xl leading-tight mx-auto">
             Discover Diverse Categories
           </h2>
           <div className="mt-10 lg:mt-16 grid grid-cols-2 lg:grid-cols-4 gap-7">
@@ -94,13 +94,13 @@ export default function Home() {
       </section>
 
      
-      <section id="features" className="py-10 max-w-screen overflow-hidden lg:py-20">
+      <section id="features" className="py-10 max-w-screen overflow-hidden lg:py-20 mt-20">
         <div className="container">
           <h2 className="ttl text-center text-[#5890E7]">
             Serving Every Industry
           </h2>
         </div>
-        <div className="mt-20 mb-10 -rotate-3">
+        <div className="mt-20 -rotate-3">
           <Marquee speed={50}
 
             pauseOnHover={true}
@@ -143,7 +143,7 @@ export default function Home() {
         </div>
       </section>
      
-      <div className='container'>
+      <div className='container mt-20 '>
 <Testimonials></Testimonials>
 </div>
 

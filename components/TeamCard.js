@@ -5,6 +5,7 @@ function TeamCard({ info }) {
     return (
         <div className='teamCard'>
                 <img  src={info.img} alt="" className='h-[220px] w-[220px]'/>
+                <img  src={info.img} alt="" className='h-60 w-60'/>
             <h3 className='lg:text-2xl text-xl font-semibold leading-tight mt-5 text-white text-center'>
                 {info.name}
             </h3>
