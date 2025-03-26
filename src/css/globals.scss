@@ -795,3 +795,96 @@ video {
     max-width: 180px; /* Slightly smaller image for mobile */
   }
 }
+#contactCards {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+// .crd {
+//   background: #fff;
+//   padding: 20px;
+//   border-radius: 12px;
+//   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+//   transition: transform 0.3s ease-in-out;
+//   width: 100%;
+//   max-width: 350px;  /* Ensures consistency in width */
+//   margin: 0 auto; /* Centers the cards */
+// }
+
+.crd:hover {
+  transform: translateY(-5px);
+}
+
+.bgTxt {
+  // background: linear-gradient(230deg, #fa7f3f, #e92f4f, #cb1a77);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+}
+
+/* Ensures proper spacing for text */
+.txt {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.txt:hover {
+  color: #e92f4f;
+}
+
+/* 🔹 Responsive Design Fix */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr; /* Stack cards in one column */
+    gap: 30px; /* Increase spacing */
+  }
+
+  .crd {
+    padding: 20px;
+  }
+
+  .bgTxt {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    gap: 100px; /* More spacing between icons */
+  }
+
+  .crd {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    gap: 50px; /* Maximum spacing to avoid collision */
+  }
+
+  .bgTxt {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+}
+
